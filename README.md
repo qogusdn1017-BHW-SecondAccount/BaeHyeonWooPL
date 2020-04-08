@@ -3,6 +3,8 @@ Minecraft BaeHyeonWoo Plugin for me. Created By BaeHyeonWoo.
 
 **NOTE : THIS PROJECT IS JUST FOR ME. IF YOU WANT TO EDIT THIS PROJECT WITH YOURSELF, CONTACT ME FIRST AND EDIT THIS PROJECT.**
 
+**+ THIS IS A LEGACY PLUGIN.**
+
 # RUNNING IN MINECRAFT: JAVA EDITION 1.15.2
 
 ## In-Game Command List (Main.java / plugin.yml)
