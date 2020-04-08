@@ -1,0 +1,66 @@
+name: BaeHyeonWooPL
+version: 1.2.1
+main: library.Main
+api-version: 1.15
+
+commands:
+  activestatus:
+    description: "checkpluginactive"
+  credits:
+    description: "bhwplcreator"
+  gm:
+    description: "changegamemode"
+  stop:
+    description: "block stop"
+  whyme99:
+    description: "injung"
+  compass:
+    description: "worldeditcompass"
+  diasetpvp:
+    description: "diasetpvp"
+  chainsetpvp:
+    description: "chainsetpvp"
+  goldsetpvp:
+    description: "goldsetpvp"
+  ironsetpvp:
+    description: "ironsetpvp"
+  leathersetpvp:
+    description: "leathersetpvp"
+  god:
+    description: "resistance"
+  invisible:
+    description: "ev"
+  ev:
+    description: "invisible"
+  godremove:
+    description: "removegod"
+  evremove:
+    description: "removeev"
+  invisibilityremove:
+    description: "removeinvisibility"
+  classicduel:
+    description: "classicduel"
+  spacemode:
+    description: "youreinaspace"
+  deactspace:
+    description: "nospace"
+  giveop:
+    description: "NO"
+  feed:
+    description: "A Pizza would be nice hmm?"
+  heal:
+    description: "mind damaged? I'll heal for you."
+  difficulty:
+    description: "changedifficulty"
+  gamemode:
+    description: "changegamemode"
+  stopserver:
+    description: "stopservernormally"
+  playwait:
+    description: "wherearewenow"
+  ci:
+    description: "clearinventory"
+  stopwait:
+    description: "stopwait"
+  nightvision:
+    description: "behold."
