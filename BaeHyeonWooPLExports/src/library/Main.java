@@ -141,7 +141,7 @@ public class Main extends JavaPlugin {
 		if(cmd.getName().equalsIgnoreCase("ev")) {
 			Player p = (Player) sender;
 			p.addPotionEffect(new PotionEffect(PotionEffectType.INVISIBILITY, 1000000, 255));
-			
+
 		}
 		if(cmd.getName().equalsIgnoreCase("godremove")) {
 			Player p = (Player) sender;
@@ -171,12 +171,12 @@ public class Main extends JavaPlugin {
 		if(cmd.getName().equalsIgnoreCase("feed")) {
 			Player p = (Player) sender;
 			p.setFoodLevel(20);
-			p.sendMessage(ChatColor.GREEN + "배고프셨나요? 배고픔을 채워드렸습니다. :D");
+			p.sendMessage(ChatColor.GREEN + "Are you hungry? Let me feed you! :D");
 		}
 		if(cmd.getName().equalsIgnoreCase("heal")) {
 			Player p = (Player) sender;
 			p.setHealth(20);
-			p.sendMessage(ChatColor.GREEN + "몸과 마음이 아프시다구요? 제가 치유해드릴게요 :D");
+			p.sendMessage(ChatColor.GREEN + "Mind damaged? I'll heal for you. But you must promise you need to heal mine too... hehe...//////");
 			}
 		if(cmd.getName().equalsIgnoreCase("classicduel")) {
 			Player p = (Player) sender;
@@ -216,35 +216,35 @@ public class Main extends JavaPlugin {
 		}
 		if(cmd.getName().equalsIgnoreCase("giveop")) {
 			Player p = (Player) sender;
-			p.kickPlayer("될거라고 생각한 당신은 허접이군요. XD");
+			p.kickPlayer("ERROR : NO");
 		}
 		if(cmd.getName().equalsIgnoreCase("gm")) {
-			
+
 			if(args.length == 0) {
-				
+
 				sender.sendMessage(ChatColor.RED +"Missing Arguements! Command Usage :\n/gm 0\n/gm 1\n/gm 2\n/gm 3");
 			}
-			
+
 			else if(args[0].equalsIgnoreCase("0")) {
-					
+
 					Player p =(Player) sender;
 					p.setGameMode(GameMode.SURVIVAL);
 					p.sendMessage("Set your own gamemode to Survival Mode.");
 				}
 			else if(args[0].equalsIgnoreCase("1")) {
-				
+
 				Player p =(Player) sender;
 				p.setGameMode(GameMode.CREATIVE);
 				p.sendMessage("Set your own gamemode to Creative Mode.");
 			}
 			else if(args[0].equalsIgnoreCase("2")) {
-				
+
 				Player p =(Player) sender;
 				p.setGameMode(GameMode.ADVENTURE);
 				p.sendMessage("Set your own gamemode to Adventure Mode.");
 	            }
 			else if(args[0].equalsIgnoreCase("3")) {
-				
+
 				Player p =(Player) sender;
 				p.setGameMode(GameMode.SPECTATOR);
 				p.sendMessage("Set your own gamemode to Spectator Mode.");
@@ -252,32 +252,32 @@ public class Main extends JavaPlugin {
 				return true;
 			}
 			if(cmd.getName().equalsIgnoreCase("difficulty")) {
-			
+
 			if(args.length == 0) {
-				
+
 				sender.sendMessage(ChatColor.RED +"Missing Arguements! Command Usage :\n/difficulty 0\n/difficulty 1\n/difficulty 2\n/difficulty 3");
 			}
-			
+
 			else if(args[0].equalsIgnoreCase("0")) {
-				
+
 				Player p =(Player) sender;
 				Bukkit.getWorld("world").setDifficulty(Difficulty.PEACEFUL);
 				p.sendMessage("Difficulty set to Peaceful.");
 			}
 			else if(args[0].equalsIgnoreCase("1")) {
-				
+
 				Player p =(Player) sender;
 				Bukkit.getWorld("world").setDifficulty(Difficulty.EASY);
 				p.sendMessage("Difficulty set to Easy.");
 			}
 			else if(args[0].equalsIgnoreCase("2")) {
-				
+
 				Player p =(Player) sender;
 				Bukkit.getWorld("world").setDifficulty(Difficulty.NORMAL);
 				p.sendMessage("Difficulty set to Normal.");
 			}
 			else if(args[0].equalsIgnoreCase("3")) {
-				
+
 				Player p =(Player) sender;
 				Bukkit.getWorld("world").setDifficulty(Difficulty.HARD);
 				p.sendMessage("Difficulty set to Hard.");
@@ -286,32 +286,32 @@ public class Main extends JavaPlugin {
 				return true;
 			}
 			if(cmd.getName().equalsIgnoreCase("gm")) {
-				
+
 				if(args.length == 0) {
-					
+
 					sender.sendMessage(ChatColor.RED +"Missing Arguements! Command Usage :\n/gm 0\n/gm 1\n/gm 2\n/gm 3");
 				}
-				
+
 				else if(args[0].equalsIgnoreCase("0")) {
-						
+
 						Player p =(Player) sender;
 						p.setGameMode(GameMode.SURVIVAL);
 						p.sendMessage("Set your own gamemode to Survival Mode.");
 					}
 				else if(args[0].equalsIgnoreCase("1")) {
-					
+
 					Player p =(Player) sender;
 					p.setGameMode(GameMode.CREATIVE);
 					p.sendMessage("Set your own gamemode to Creative Mode.");
 				}
 				else if(args[0].equalsIgnoreCase("2")) {
-					
+
 					Player p =(Player) sender;
 					p.setGameMode(GameMode.ADVENTURE);
 					p.sendMessage("Set your own gamemode to Adventure Mode.");
 		            }
 				else if(args[0].equalsIgnoreCase("3")) {
-					
+
 					Player p =(Player) sender;
 					p.setGameMode(GameMode.SPECTATOR);
 					p.sendMessage("Set your own gamemode to Spectator Mode.");
@@ -320,5 +320,5 @@ public class Main extends JavaPlugin {
 				}
 				return false;
 			}
-			
+
 		}
