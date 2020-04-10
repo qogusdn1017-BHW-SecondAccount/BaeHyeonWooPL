@@ -10,27 +10,23 @@ Minecraft BaeHyeonWoo Plugin for me. Created By BaeHyeonWoo.
 ## In-Game Command List (Main.java / plugin.yml)
 /activestatus **(WORKS ONLY IN GAME)**
 
-/credits
-
-/gm
+/credits (credits who created this plugin)
 
 /stop (does not really stops the server.)
 
 /stopserver (this command really stops the server.)
 
-/compass **(NEEDS WORDEDIT BECAUSE IT'S FOR WORLDEDIT COMPASS THING.)**
-
 For PVP Things :
 
-/diasetpvp
+/diasetpvp (gives full diamond armor + diamond sword)
 
-/chainsetpvp
+/chainsetpvp (gives full chain armor + stone sword)
 
-/goldsetpvp
+/goldsetpvp (gives full gold armor + golden sword)
 
-/ironsetpvp
+/ironsetpvp (gives full iron armor + iron sword)
 
-/leathersetpvp
+/leathersetpvp (gives full leather armor + wooden sword)
 
 /classicduel (reference of Hypixel Classic Duel. **BUILD IN PROGRESS.**)
 
@@ -38,31 +34,25 @@ Stuff made for fun :
 
 /whyme99 (thinking about deletion)
 
-/god
+/god (gives user great buffs.)
 
 /invisible (same as /ev)
 
-/godremove
+/godremove (removes god.)
 
 /invisibilityremove (same as /evremove)
 
-/spacemode
+/spacemode (gives jump boost + levitation to feel like you're in space. added p.sendMessage saying "HOUSTON, WE HAVE A PROBELM" and tell the user that space mode is activated.)
 
-/deactspace
+/deactspace (deactivates spacemode)
 
-/nightvision
+/nightvision (gives you nightvision. I really wanted this command. **BEHOLD THE NIGHT VISION.**)
 
-/playwait
+/playwait (command made just for fun. not thinking about deletion. + **NOT TESTED.**)
 
-/stopwait
+/stopwait (**NOT TESTED**)
 
-/feed
-
-/heal
-
-/giveop (Kicks the user.)
-
-/ci
+/giveop (Kicks the user. Going to change this as really gives user op. **IF THE SHITTIEST BUGS ARE GONE.**)
 
 
 ## COMMANDS FOR CONVENIENCE
@@ -70,14 +60,28 @@ THIS PART IS JUST USEFUL COMMAND MADE FOR ME AND OTHER ELSE.
 
 AFTER UPDATING 1.13.2, GAMEMODE, DIFFCULTY COMMANDS HAS CHANGED TO FULLY ENGLISH.
 
-SO I MADE THIS COMMAND JUST FOR FUN + CONVINENCE.
+SO I MADE THIS COMMAND JUST FOR MY AND OTHER'S CONVINENCE.
 
 
 /gamemode (Try to add 'Chaging other's gamemode' function; if the shittiest bugs are gone.)
 
 /difficulty (You can now change difficulty with numbers!)
 
-/gm (Try to add 'Chaging other's gamemode' function too. Refernce of Essentials.)
+/gm (Try to add 'Chaging other's gamemode' function too. Reference of Essentials.)
+
+/compass **(NEEDS WORDEDIT BECAUSE IT'S FOR WORLDEDIT COMPASS THING.)**
+
+=========================================================================================
+
+/feed (Hunger to max.)
+
+/heal (Health to max.)
+
+(these two are going to edited at [p.sendMessage] becuase right now it's in Korean.)
+
+=========================================================================================
+
+/ci (clears inventory. Reference of Essentials.)
 
 ## In-Game Events (Event.java)
 
@@ -87,10 +91,13 @@ onBreak(BlockBreakEvent e)
 
 onPlace(BlockPlaceEvent e)
 
+=========================================================================================
+
 onPlayerJoin(PlayerJoinEvent e)
 
-Shows the title at player, sends the message at player welcoming.
+Shows the title, sends Message player welcoming. (You can edit this code without my permission; well, you can just make your own code yourself tho.)
 
+=========================================================================================
 
 ## Contact
 
@@ -99,3 +106,5 @@ E-mail : qogusdn1017@naver.com (Primary E-mail)
 qogusdn1017@o365.ice.go.kr
 
 baehyeonwoo@o365.ice.go.kr
+
+Other contacts can be found at : https://linktr.ee/baehyeonwoo
