@@ -7,6 +7,10 @@ Minecraft BaeHyeonWoo Plugin for me. Created By BaeHyeonWoo.
 
 # RUNNING IN MINECRAFT: JAVA EDITION 1.15.2
 
+#
+
+Finding someone who can help and teach me Java easily. (or minecraft plugin at least.) Contacts can be found below.
+
 ## In-Game Command List (Main.java / plugin.yml)
 /activestatus **(WORKS ONLY IN GAME)**
 
