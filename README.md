@@ -2,6 +2,7 @@
 Minecraft BaeHyeonWoo Plugin for me. Created By BaeHyeonWoo.
 
 **NOTE : THIS PROJECT IS JUST FOR ME. IF YOU WANT TO EDIT THIS PROJECT WITH YOURSELF, CONTACT ME FIRST AND EDIT THIS PROJECT.**
+Edited : This Project is under CC-BY-NC-SA 4.0
 
 **+ THIS IS A LEGACY PLUGIN.**
 
