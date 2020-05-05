@@ -1,6 +1,14 @@
 # BaeHyeonWooPL
 Minecraft BaeHyeonWoo Plugin for me. Created By BaeHyeonWoo.
 
+## WARNING : THIS CODE IS NOT FULLY COMPLETED
+
+THE PLUGIN CODE IS EDITING BY HappyAndJust. FEEL FREE TO EDIT THE CODE. BUT REMEMBER THAT THIS CODE HAS A BUG AND ERRORS AND MAY CAUSE ISSUES IN-GAME LIKE I SAID EARLIER ; CODE IS NOT FULLY COMPLETED.
+
+THE BUGS ARE : COMMANDS DON'T WORK WHILE 'isOp()' IS IN THE CODE.
+
+THE FEATURE THAT I THINKING BUT DON'T KNOW HOW TO DO : CHANGING OTHERS' GAMEMODES.
+
 **NOTE : THIS PROJECT IS JUST FOR ME. IF YOU WANT TO EDIT THIS PROJECT WITH YOURSELF, CONTACT ME FIRST AND EDIT THIS PROJECT.**
 
 Edited : This Project is under License "GNU General Public License v3.0". Feel free to edit this repository.
@@ -10,6 +18,8 @@ If fixed bugs or added some functions, contact me anytime. I'll listen.
 **+ THIS IS A LEGACY PLUGIN.**
 
 # RUNNING IN MINECRAFT: JAVA EDITION 1.15.2
+
+TESTED ON PAPER. GOTO https://papermc.io FOR PAPER AND INFORMATION.
 
 #
 
@@ -36,7 +46,7 @@ For PVP Things :
 
 /leathersetpvp (gives full leather armor + wooden sword)
 
-/classicduel (reference of Hypixel Classic Duel. **BUILD IN PROGRESS.**)
+/classicduel (reference of Hypixel Classic Duel. **thinking about deletion**)
 
 Stuff made for fun :
 
