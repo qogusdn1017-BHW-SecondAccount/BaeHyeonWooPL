@@ -1,66 +1,66 @@
 name: BaeHyeonWooPL
-version: 1.2.1
+version: 1.3
 main: library.Main
 api-version: 1.15
 
 commands:
   activestatus:
-    description: "Plugin active status check command."
+    description: "checkpluginactive"
   credits:
-    description: "Shows who made this plugin."
+    description: "bhwplcreator"
   gm:
-    description: "Reference of Essentials. Changing gamemode with only gm and numbers."
+    description: "changegamemode"
   stop:
-    description: "Blocking original stop command for shitz."
+    description: "block stop"
   whyme99:
-    description: "For troll my friend. Going to be deleted."
+    description: "injung"
   compass:
-    description: "For convenience. WorldEdit Compass thing."
+    description: "worldeditcompass"
   diasetpvp:
-    description: "Diamond armor PVP"
+    description: "diasetpvp"
   chainsetpvp:
-    description: "Chain armor PVP"
+    description: "chainsetpvp"
   goldsetpvp:
-    description: "Gold armor PVP"
+    description: "goldsetpvp"
   ironsetpvp:
-    description: "Iron armor PVP"
+    description: "ironsetpvp"
   leathersetpvp:
-    description: "Leather armor PVP"
+    description: "leathersetpvp"
   god:
-    description: "BUFFS."
+    description: "resistance"
   invisible:
-    description: "EV"
+    description: "ev"
   ev:
-    description: "INVISIBLE"
+    description: "invisible"
   godremove:
-    description: "Remove Buffs and returns to the original."
+    description: "removegod"
   evremove:
-    description: "Removes invisibility."
+    description: "removeev"
   invisibilityremove:
-    description: "Removes invisibility"
+    description: "removeinvisibility"
   classicduel:
-    description: "Reference of Hypixel. Clasic Duel."
+    description: "classicduel"
   spacemode:
-    description: "HOUSTON, WE HAVE A PROBLEM."
+    description: "youreinaspace"
   deactspace:
-    description: "IT WAS JUST A DREAM."
+    description: "nospace"
   giveop:
-    description: "Kicks the user just for fun. Will be opped."
+    description: "NO"
   feed:
     description: "A Pizza would be nice hmm?"
   heal:
-    description: "Mind damaged? I'll heal for you. But you must promise you need to heal mine too... hehe...//////"
+    description: "mind damaged? I'll heal for you."
   difficulty:
-    description: "Change Difficulty in Numbers"
+    description: "changedifficulty"
   gamemode:
-    description: "Changing gamemode with numbers."
+    description: "changegamemode"
   stopserver:
-    description: "Stops server normally."
+    description: "stopservernormally"
   playwait:
-    description: "Test command. Plays wait. Where are we now."
+    description: "wherearewenow"
   ci:
-    description: "Clears inventory."
+    description: "clearinventory"
   stopwait:
-    description: "Test command."
+    description: "stopwait"
   nightvision:
-    description: "BEHOLD."
+    description: "behold."

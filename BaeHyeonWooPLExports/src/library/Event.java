@@ -16,8 +16,16 @@ public class Event implements Listener{
 	}
 	@EventHandler
 	public void onPlace(BlockPlaceEvent e) {
-		e.setCancelled(false);
+		Player p = e.getPlayer(); {
+		if(p.isOp()) {
+			e.setCancelled(false);
+		}
+		else if (!p.isOp()) {
+			e.setCancelled(true);
+		}
 	}
+		
+}
 	@EventHandler
 	public void onPlayerJoin(PlayerJoinEvent e) {
 		Player p = e.getPlayer();
