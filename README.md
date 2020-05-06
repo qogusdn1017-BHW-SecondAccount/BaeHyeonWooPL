@@ -25,6 +25,8 @@ If you fixed bugs or added some functions, contact me anytime. I'll listen.
 
 TESTED ON PAPER. GOTO https://papermc.io FOR PAPER AND INFORMATION.
 
+**NOT SUPPORTING OTHER VERSIONS**
+
 #
 
 Finding someone who can help and teach me Java easily. (or minecraft plugin at least.) Contacts can be found below.
