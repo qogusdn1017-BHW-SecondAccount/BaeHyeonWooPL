@@ -12,15 +12,22 @@ public class Event implements Listener{
 
 	@EventHandler
 	public void onBreak(BlockBreakEvent e) {
-		e.setCancelled(false);
+		Player p = e.getPlayer(); {
+		if(p.isOp()) {
+			e.setCancelled(false);	
+		}
+		else {
+			e.setCancelled(true);
+		}
 	}
+}
 	@EventHandler
 	public void onPlace(BlockPlaceEvent e) {
 		Player p = e.getPlayer(); {
 		if(p.isOp()) {
 			e.setCancelled(false);
 		}
-		else if (!p.isOp()) {
+		else {
 			e.setCancelled(true);
 		}
 	}

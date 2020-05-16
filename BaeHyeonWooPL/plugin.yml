@@ -1,66 +1,56 @@
 name: BaeHyeonWooPL
-version: 1.3
+version: 1.4
 main: library.Main
 api-version: 1.15
 
 commands:
   activestatus:
-    description: "checkpluginactive"
+    description: "Check that Plugin Status is Activated!"
   credits:
-    description: "bhwplcreator"
+    description: "Credits of this Plugin Creation."
   gm:
-    description: "changegamemode"
+    description: "Change Player's Gamemodes. Reference of Essentials."
   stop:
-    description: "block stop"
-  whyme99:
-    description: "injung"
+    description: "Stop command only for Operators."
   compass:
-    description: "worldeditcompass"
+    description: "Gives you compass with just one commandline."
   diasetpvp:
-    description: "diasetpvp"
+    description: "Diamond Armor + Diamond Sword"
   chainsetpvp:
-    description: "chainsetpvp"
+    description: "Chain Armor + Stone Sword"
   goldsetpvp:
-    description: "goldsetpvp"
+    description: "Golden Armor + Golden Sword"
   ironsetpvp:
-    description: "ironsetpvp"
+    description: "Iron Armor + Iron Sword"
   leathersetpvp:
-    description: "leathersetpvp"
+    description: "Leather Armor + Wooden Sword"
   god:
-    description: "resistance"
+    description: "Gives User Great Buffs."
   invisible:
-    description: "ev"
+    description: "Reference of Essentials. Gives Player invisibility."
   ev:
-    description: "invisible"
+    description: "Reference of Essentials. Gives Player invisibility."
   godremove:
-    description: "removegod"
+    description: "Removes buff effects."
   evremove:
-    description: "removeev"
+    description: "Removes Invisibility."
   invisibilityremove:
-    description: "removeinvisibility"
-  classicduel:
-    description: "classicduel"
+    description: "Removes Invisibility."
   spacemode:
-    description: "youreinaspace"
+    description: "Spacemode for fun."
   deactspace:
-    description: "nospace"
+    description: "Deactivate Spacemode."
   giveop:
-    description: "NO"
+    description: "Give you Administrative Permission."
   feed:
-    description: "A Pizza would be nice hmm?"
+    description: "Satisfition of Hunger."
   heal:
-    description: "mind damaged? I'll heal for you."
+    description: "Heals user."
   difficulty:
-    description: "changedifficulty"
+    description: "Change Game Difficulty."
   gamemode:
-    description: "changegamemode"
-  stopserver:
-    description: "stopservernormally"
-  playwait:
-    description: "wherearewenow"
+    description: "Change Player's Gamemodes. Reference of Essentials."
   ci:
-    description: "clearinventory"
-  stopwait:
-    description: "stopwait"
+    description: "Clear Player's Inventory. Reference of Essentials"
   nightvision:
-    description: "behold."
+    description: "Gives User Night Vision."
