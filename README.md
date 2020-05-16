@@ -1,10 +1,11 @@
 # BaeHyeonWooPL
 Minecraft BaeHyeonWoo Plugin for me. Created By BaeHyeonWoo.
 
-## New Features Added!
+## New Version & Features Added!
 
-Thanks to HappyAndJust, Code is more looking good.
+Download : https://github.com/BaeHyeonWoo-1017/BaeHyeonWooPL/releases/download/1.4/BaeHyeonWooPL.jar
 
+Thanks to HappyAndJust, Code is more better.
 
 New Features :
 - You can change other's GameModes.
@@ -12,7 +13,7 @@ New Features :
 
 ##
 
-**Edited : This Project is under License "GNU General Public License v3.0". Feel free to edit this repository. :D**
+**This Project is under License "GNU General Public License v3.0". Feel free to edit this repository. :D**
 
 If you fixed bugs or added some functions, contact me anytime. I'll listen to you.
 
